@@ -22,11 +22,11 @@ DATUM=$(date +"%d.%m.%Y - %H:%M Uhr")
 # 5. Alle Dateien (inkl. der erzeugten PDFs und .gitkeep-Dateien) vormerken 
 git add . 
 
-# 6. Nur committen und pushen, wenn es Änderungen gab (auch ungetrackte Dateien prüfen)
+# 6. Nur committen und pushen, wenn es Änderungen gab
 if ! git diff-index --quiet HEAD -- || [ -n "$(git status --porcelain)" ]; then 
     git commit -m "Automatisches Backup vom $DATUM" 
     git push origin main 
-    notify-send "Git Backup" "Magnetkran-Projekt erfolgreich gesichert!" -i document-save 
+    notify-send "Git Backup" "Magnetkran-Projekt erfolgreich via SSH gesichert!" -i document-save 
 fi 
 
 # 7. Zurück ins Home-Verzeichnis
