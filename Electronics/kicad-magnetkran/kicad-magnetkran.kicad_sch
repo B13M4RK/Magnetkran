@@ -1,0 +1,111 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0d35483a-0b12-46cc-b9f2-896fd6831779")
+	(paper "A4")
+	(title_block
+		(title "Magnetkran: Magnet, LED, Motoren")
+		(date "2026-05-10")
+		(company "Paul Dreißig")
+	)
+	(lib_symbols)
+	(sheet
+		(at 99.06 76.2)
+		(size 35.56 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cc1ce6fa-bb36-465b-b650-6424cb286244")
+		(property "Sheetname" "self-build-h-bridges"
+			(at 99.06 75.4884 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 99.06 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad-magnetkran"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 76.2)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf4366ba-480b-4ddc-86de-dc14aee3ff66")
+		(property "Sheetname" "final"
+			(at 143.51 75.4884 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "final-magnetic-crane.kicad_sch"
+			(at 143.51 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad-magnetkran"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
